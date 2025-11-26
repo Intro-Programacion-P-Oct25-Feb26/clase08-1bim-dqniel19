@@ -33,6 +33,8 @@ public class Ejemplo01 {
             contador = contador + 1;
             
         } while (contador <= 10);
+        
+        
         cad = String.format("%s\nLa suma es %d\n", cad, suma);
         System.out.printf("%s\n", cad);
     }
