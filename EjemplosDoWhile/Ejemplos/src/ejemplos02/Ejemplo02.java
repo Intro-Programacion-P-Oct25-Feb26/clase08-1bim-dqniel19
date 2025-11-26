@@ -40,6 +40,9 @@ public class Ejemplo02 {
                 case "y":
                     bandera = false;
                     break;
+                    
+                    
+                    
                 }
         } while (bandera); // (bandera==true)
 
