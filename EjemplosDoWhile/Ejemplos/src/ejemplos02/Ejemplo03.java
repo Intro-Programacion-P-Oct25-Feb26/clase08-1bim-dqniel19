@@ -21,7 +21,7 @@ public class Ejemplo03 {
         double nota;
         boolean bandera = true;
         int salida;
-        double sumaNotas = 0;
+        double sumaNotas = 0; // la nueva variable tiene valor 0 para poder acumularle los valores 
         
         do {
             System.out.println("Ingrese calificaciones");
@@ -39,8 +39,9 @@ public class Ejemplo03 {
 
         } while (bandera); // (bandera==true)
         
+        // Se termina de concatenar la cadena para ser impresa
         cadenaFinal = String.format("%s\n", cadenaFinal);
-        cadenaFinal = String.format("%s\nLa suma es%.2f", cadenaFinal, sumaNotas);
+        cadenaFinal = String.format("%s\nLa suma es %.2f", cadenaFinal, sumaNotas);
         System.out.printf("Listado de Notas\n%s\n", cadenaFinal);
     }
 }
